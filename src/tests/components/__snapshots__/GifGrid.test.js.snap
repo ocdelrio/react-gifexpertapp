@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test de GifGrid Debe de mostrarse correctamente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Pokemon
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Cargando
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Test de GifGrid Debe mostar items cuando se cargan imagenes. 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Pokemon
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="ABC"
+      url="https://localhost/test/unitarios/imagen.jpg"
+    />
+  </div>
+</Fragment>
+`;
